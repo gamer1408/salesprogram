@@ -1,0 +1,36 @@
+# Muhit o'zgaruvchilari va maxfiy kalitlar
+.env
+.env.*
+!.env.example
+service_account.json
+*.json
+!package.json
+
+# Python virtual muhitlari
+.venv/
+venv/
+env/
+.bot_venv/
+ENV/
+
+# Python kesh fayllari
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Vaqtinchalik ovozli fayllar va loglar
+*.ogg
+*.mp3
+*.wav
+*.log
+
+# IDE va tizim fayllari (Antigravity / VS Code / Windows)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
